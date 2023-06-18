@@ -1,4 +1,5 @@
 #Day 4 -Randomization and Python Lists
+# #Day 4 -Randomization and Python Lists
 #Randomization 
 import random
 random_integer  = random.randint(1, 10)
@@ -31,8 +32,8 @@ print(person_who_pays, "will be paying for the meal")
 
 fruits = ["Strawberries", "Nectarines", "Apples", "Grapes", "Peaches", "Cherries", "Pears"]
 vegetables = ["Spinach", "Kale", "Tomatoes", "Celery", "Potatoes"]
+dirty_dozen = [fruits, vegetables]
 
-dirty_dozen = [fruits, vegetables] 
 print(dirty_dozen)
 
 #Day 4.3 -Treasure Map/
@@ -42,6 +43,7 @@ row3 = ["", "", ""]
 map = [row1, row2, row3]
 print(f"{row1}\n{row2}\n{row3}")
 position = input("Where do you want to place the treasure? ")
+
 horizontal_position = int(position[0])
 vertical_position = int(position[1])
 selected_row = map[vertical_position - 1]
@@ -69,3 +71,4 @@ elif user_choice == computer_choice:
     print("It is a draw")
 else:
     print("You type an invalid number. You lose")
+
