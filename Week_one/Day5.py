@@ -1,5 +1,6 @@
 #Day 5 - Loops, Range and Code Block
 #Day 5.1 Exercise - Average Height Exercise
+
 fruits = ["Apple", "Peach", "Pear"]
 for fruit in fruits:
     print(fruit)
@@ -24,4 +25,5 @@ print(num_of_students)
 
 average_height = round(total_height / num_of_students)
 print(average_height)
+
 
