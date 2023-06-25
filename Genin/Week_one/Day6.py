@@ -18,4 +18,7 @@ def jump():
 for i in range(1, 7):
     jump()
 
+#While Loop
+
+
   
