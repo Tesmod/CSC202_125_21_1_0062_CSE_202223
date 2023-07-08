@@ -1,4 +1,4 @@
-
+#Card Game
 import random
 
 def deal_card():
@@ -18,9 +18,6 @@ def calculate_score(cards):
     
     return sum(cards)
 
-    
-    
-    
 def compare(user_score, computer_score):
     if user_score == computer_score:
         return"Draw"
@@ -46,8 +43,6 @@ def play_game():
         user_cards.append(deal_card)
         computer_cards.append(deal_card)
     calculate_score(user_cards)
-
-
 
 while not is_game_over:
     

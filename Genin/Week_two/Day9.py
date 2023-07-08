@@ -25,11 +25,6 @@ for student in student_scores:
 print(student_grades)
 print(student_scores)
 
-
-
-
-
-
 #dictionary inside dictionary
 #nexted dict
 

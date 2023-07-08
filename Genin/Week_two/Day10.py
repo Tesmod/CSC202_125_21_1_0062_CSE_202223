@@ -1,5 +1,5 @@
 
-#functions with output
+#Day10 - functions with output
 #change the title of your string
 
 def format_name(f_name, l_name):
