@@ -23,13 +23,16 @@ student_dict = {
 }
 
 #Looping through dictonaries
-# for (key, value) in student_dict.items():
-#     print(value)
+for (key, value) in student_dict.items():
+
+    pass
 
 import pandas
+student_data_Frame = pandas.DataFrame(student_dict)
 
-student_data_Frame = pandas.DataFrame
-(student_dict)
-# print(student_data_Frame)
+#Loop through rows of a data frame
+for (index, row) in student_data_Frame.iterrows():
 
-#Loop through a data frame
+    pass
+
+
