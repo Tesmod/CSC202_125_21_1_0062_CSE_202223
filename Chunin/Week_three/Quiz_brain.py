@@ -1,3 +1,5 @@
+#Day 17 Questions
+#Quiz-brain game
 class QuizBrain:
 
     def __init__(self, q_list):

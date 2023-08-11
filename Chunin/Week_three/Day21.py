@@ -1,3 +1,4 @@
+#Day 21 class
 #Class Inheritance
 class Animal:
     def __init__(self):

@@ -1,4 +1,4 @@
-# Setting up Pycharm Development Environment
+#Day15 - Setting up Pycharm Development Environment
 #Coffee Project
 MENU = {
     "espresso": {

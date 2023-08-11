@@ -1,4 +1,4 @@
-#Day 18 
+#Day 18 - Turtle
 import turtle as t
 import random
 tim = t.Turtle()
